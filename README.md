@@ -1,14 +1,8 @@
-//# Lista-de-exerc-cios
-//Primeiro uso do Git
+//# Lista-de-exerc-cios //Primeiro uso do Git
 
+#include <stdio.h> #define tam 5 // define o valor
 
-#include <stdio.h>
-#define tam 5  // define o valor
-
-int main()
-{
-	float mata[tam][tam], matb[tam][tam]; // Declaração de variaveis
-	int i, j;
+int main() { float mata[tam][tam], matb[tam][tam]; // Declaração de variaveis int i, j;
 
 	for(i=0; i<tam; i++) { // Coleta os valores da primeira matriz
 		for(j=0; j<tam; j++) {
